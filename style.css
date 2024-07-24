@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: url(sky-2076868_1280.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    letter-spacing: 0.08rem;
+    font-size: 40px;
+}
+
+#searchSection {
+    margin-top: 20px;
+}
+
+#cityInput {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+    background-color: white;
+}
+
+#weather {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 0.07rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#temp {
+    font-size: 90px;
+    font-weight: 300;
+}
+
+#description {
+    text-transform: capitalize;
+    margin-left: -20px;
+    font-weight: 300;
+}
